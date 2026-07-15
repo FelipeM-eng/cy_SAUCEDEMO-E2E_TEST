@@ -30,27 +30,6 @@ Run:
 npm install
 ```
 
-
-## Create the fixture file
-- This is necessary for the test to work
-
-Create the following file: cypress/fixtures/users.json
-
-Add the following content:
-
-```json
-{
-  "standardUser": {
-    "username": "standard_user",
-    "password": "secret_sauce"
-  },
-  "invalidUser": {
-    "username": "wrong_user",
-    "password": "wrong_password"
-  }
-}
-```
-
 ## Run the tests
 
 Open Cypress:
